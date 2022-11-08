@@ -420,3 +420,6 @@ div .panier {
     height: 225px;
     margin: 0px;
 }
+a{
+    text-decoration: none;
+}
