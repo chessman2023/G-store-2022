@@ -63,23 +63,23 @@
     .panier {
         position:relative;
         margin: 0px;
+        border-left-width: 0px;
     }
     .panier img {
         width: 100%;
         height: 100%;
         border-radius: 50%;
-        border-left-width: 0px;
     }
     
     .panier img {
-        border-left: 20px solid #e6ff9c;
-        border-top: 3px solid #e6ff9c;
-        border-radius: 92% 0 0 0;
+        border-left: 0px solid #e6ff9c;
+        border-top: 0px solid #e6ff9c;
+        border-radius: 95% 0 0 0;
+        
     }
     
     .container-6 .rang3 {
         width: 100%;
-        height: 100%;
         margin: auto;
         padding: auto;
     }
