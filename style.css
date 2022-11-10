@@ -372,11 +372,6 @@ div .panier {
     margin: -50px;
 }
 
-.panier {
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-}
 
 .Vert-clair {
     color: #a0cb23;
@@ -402,7 +397,11 @@ div .panier {
 .container-4 button p {
     margin: 0px;
 }
-
+.panier {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
 .panier img {
     width: 335px;
     height: auto;

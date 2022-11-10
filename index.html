@@ -13,17 +13,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" media="screen and (max-width: 1400px)" href="responsive.css">
+
 </head>
 <header class="relative">
     <img class="img1" src="img/bg_fruit.png" alt="bg_fruit">
+    <!-- <img class="img1" src="img/bg_fruit.png" alt="bg_fruit"> -->
     <nav>
         <div class="container-1">
             <div class="logo">
                 <img src="img/logo.png" alt="logo G-store">
 
             </div>
+            
             <div class="nav-6">
-                <ul>
+                <ul class="menu">
                     <li><a href="#">Accueil</a></li>
                     <li><a href="#">A propos</a></li>
                     <li><a href="#">Boutique</a></li>
@@ -42,9 +46,9 @@
     </nav>
     <div class="container-2">
         <div class="titre">
-            <h4 class="bienvenue">Bienvenue sur notre épicerie en ligne</h4>
+            <p class="bienvenue">Bienvenue sur notre épicerie en ligne</p>
             <h1>Boutique en ligne<br />de produits frais</h1>
-            <h4>Votre click & collect prés de chez vous</h4>
+            <p>Votre click & collect prés de chez vous</p>
         </div>
         <div class="btn-1">
             <button>
@@ -57,7 +61,7 @@
             </button>
         </div>
     </div>
-    
+
 </header>
 
 <body>
@@ -79,132 +83,128 @@
         </div>
     </section>
     <div class="titre-2">
-        <h5 class="Vert-clair">Les plus populaires</h5>
+        <h4 class="Vert-clair">Les plus populaires</h4>
         <h2>Produits dans le vent</h2>
     </div>
-    
-        <section class="container-4">
-            <div class="steak rang relative">
-                <div class="hot">Hot</div>
-                <i class="fa-solid fa-heart"></i>
-                <br><br>
-                <img src="img/beef.png" alt="beef"><br>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i><br>
-                Steak de boeuf
-                <br>
-                <p><s>15€</s> <span class="Vert-clair">12€</span></p>
-                <button>
-                    <p>AJOUTER</p>
-                </button>
-            </div>
-            <div class="broccolis rang relative">
-                <i class="fa-solid fa-heart"></i>
-                <br><br>
-                <img src="img/broccoli.png" alt="broccoli"><br>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i><br>
-                Broccolis
-                <br>
-                <p><s>20€</s> <span class="Vert-clair">15€</span></p>
-                <button class="vert">
-                    <p>AJOUTER</p>
-                </button>
-            </div>
-            <div class="fraises rang relative">
-                <i class="fa-solid fa-heart"></i>
-                <br><br>
-                <img src="img/fraises.png" alt="fraises"><br>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i><br>Fraises
-                <br>
-                <p><s>30€</s> <span class="Vert-clair">20€</span></p>
-                <button>
-                    <p>AJOUTER</p>
-                </button>
-            </div>
-        </section>
-        <section class="container-5">
-            <div class="miel rang relative">
-                <i class="fa-solid fa-heart"></i>
-                <br><br>
-                <img src="img/miel.png" alt="miel"><br>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i><br>Miel frais
-                <br>
-                <p><s>150€</s> <span class="Vert-clair">40€</span></p>
-                <button>
-                    <p>AJOUTER</p>
-                </button>
-            </div>
-            <div class="lait rang relative">
-                <i class="fa-solid fa-heart"></i>
-                <br><br>
-                <img src="img/lait.png" alt="lait">
-                <br>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i><br>Lait du jour
-                <br>
-                <p><s>10€</s> <span class="Vert-clair">8€</span></p>
-                <button>
-                    <p>AJOUTER</p>
-                </button>
-            </div>
-            <div class="boisson rang relative">
-                <i class="fa-solid fa-heart"></i>
-                <br><br>
-                <img src="img/mangue.png" alt="mangue">
-                <br>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i><br>Boisson à la mangue
-                <br>
-                <p><s>22€</s> <span class="Vert-clair">18€</span></p>
-                <button>
-                    <p>AJOUTER</p>
-                </button>
-            </div>
-        </section>
-    
+
+    <section class="container-4">
+        <div class="steak rang relative">
+            <div class="hot">Hot</div>
+            <i class="fa-solid fa-heart"></i>
+            <br><br>
+            <img src="img/beef.png" alt="beef"><br>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i><br>
+            Steak de boeuf
+            <br>
+            <p><s>15€</s> <span class="Vert-clair">12€</span></p>
+            <button>
+                <p>AJOUTER</p>
+            </button>
+        </div>
+        <div class="broccolis rang relative">
+            <i class="fa-solid fa-heart"></i>
+            <br><br>
+            <img src="img/broccoli.png" alt="broccoli"><br>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i><br>
+            Broccolis
+            <br>
+            <p><s>20€</s> <span class="Vert-clair">15€</span></p>
+            <button class="vert">
+                <p>AJOUTER</p>
+            </button>
+        </div>
+        <div class="fraises rang relative">
+            <i class="fa-solid fa-heart"></i>
+            <br><br>
+            <img src="img/fraises.png" alt="fraises"><br>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i><br>Fraises
+            <br>
+            <p><s>30€</s> <span class="Vert-clair">20€</span></p>
+            <button>
+                <p>AJOUTER</p>
+            </button>
+        </div>
+    </section>
+    <section class="container-5">
+        <div class="miel rang relative">
+            <i class="fa-solid fa-heart"></i>
+            <br><br>
+            <img src="img/miel.png" alt="miel"><br>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i><br>Miel frais
+            <br>
+            <p><s>150€</s> <span class="Vert-clair">40€</span></p>
+            <button>
+                <p>AJOUTER</p>
+            </button>
+        </div>
+        <div class="lait rang relative">
+            <i class="fa-solid fa-heart"></i>
+            <br><br>
+            <img src="img/lait.png" alt="lait">
+            <br>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i><br>Lait du jour
+            <br>
+            <p><s>10€</s> <span class="Vert-clair">8€</span></p>
+            <button>
+                <p>AJOUTER</p>
+            </button>
+        </div>
+        <div class="boisson rang relative">
+            <i class="fa-solid fa-heart"></i>
+            <br><br>
+            <img src="img/mangue.png" alt="mangue">
+            <br>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i><br>Boisson à la mangue
+            <br>
+            <p><s>22€</s> <span class="Vert-clair">18€</span></p>
+            <button>
+                <p>AJOUTER</p>
+            </button>
+        </div>
+    </section>
+
 </body>
 <footer>
     <div class="container-6 relative">
         <div class="reduction rang3">
             <br>
             <h4><b>50%</b> DU REDUCTION</h4>
-            
+
             <h4><a href="#">J'EN PROFITE --></a> </h4>
         </div>
         <div class="populaires rang3">
             <h2>
                 <br>
-            Les produits les<br />populaires
+                Les produits les<br />populaires
             </h2>
         </div>
         <div class="panier rang3 relative">
             <img src="img/panier.jpg" alt="panier">
         </div>
-        <div>
-            <div class="center"></div>
-        </div>
-        
     </div>
 </footer>
 
